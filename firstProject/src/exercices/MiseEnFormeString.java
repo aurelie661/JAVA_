@@ -24,21 +24,15 @@ public class MiseEnFormeString {
         String majus = chaine.toUpperCase();
         System.out.println("En majuscule : "+majus);
 //------------------------------------------------------------------------
-        char[] arr = new char[minus.length()];
-        for (int i = 0; i < minus.length(); i++) {
-            arr[i] = minus.charAt(i);
-        }
-        System.out.print("En tableau : ");
-        for ( char x : arr) {
-            System.out.print(x+",");
-        }
-        System.out.println();
+        String arrString = String.join(",",minus.split(""));
+        System.out.println(arrString);
 //------------------------------------------------------------------------
         System.out.print("Premiere lettre en majuscule : ");
         String[] arrMinus = minus.split(" ");
-        for (int i = 0; i < minus.length(); i++) {
-            System.out.print(arrMinus[i].substring(0,1).toUpperCase() + arrMinus[i].substring(1));
-            System.out.print(" ");
+        String chaineCapital = "";
+        for (String x: arrMinus) {
+            chaineCapital = chaineCapital + x.substring(0,1).toUpperCase() + x.substring(1)+ " ";
         }
+        System.out.println(chaineCapital);
     }
 }
