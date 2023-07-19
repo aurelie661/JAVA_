@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class SommeDesCarres {
     public static void main(String[] args) {
+        /*1. Écrire un programme avec les variables suivantes : a,b2.
+        Afficher la somme des carrés de ces deux nombres*/
+
         int carre1;
         int carre2;
         int sommeCarre;
