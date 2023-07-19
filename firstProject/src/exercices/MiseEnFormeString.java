@@ -34,17 +34,11 @@ public class MiseEnFormeString {
         }
         System.out.println();
 //------------------------------------------------------------------------
-        String ch1 = Character.toString(minus.charAt(0)).toUpperCase();
-
-        System.out.println(minus.replaceFirst(ch1, String.valueOf(minus.indexOf(minus))));
-        /*String[] arrMinus = new String[minus.length()];
-        for (int i = 0; i < minus.length(); i++) {
-            if(arrMinus[i] == arrMinus[0]){
-                arrMinus[i] = ch1;
-            }
-            arrMinus[i] = arrMinus[i];
-        }*/
         System.out.print("Premiere lettre en majuscule : ");
-        System.out.println();
+        String[] arrMinus = minus.split(" ");
+        for (int i = 0; i < minus.length(); i++) {
+            System.out.print(arrMinus[i].substring(0,1).toUpperCase() + arrMinus[i].substring(1));
+            System.out.print(" ");
+        }
     }
 }
