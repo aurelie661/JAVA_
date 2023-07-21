@@ -15,39 +15,6 @@ public class JourDeLaSemaine {
         System.out.println("Saisir un jour de la semaine :");
         day = scanner.nextInt();
 
-        do {
-            System.out.println("Saisir un jour de la semaine :");
-            int dayChose = scanner.nextInt();
-            day = dayChose;
-            if(day > 0 && day < 8){
-                switch (day){
-                    case 1:
-                        System.out.println("Lundi");
-                        break;
-                    case 2:
-                        System.out.println("Mardi");
-                        break;
-                    case 3:
-                        System.out.println("Mercredi");
-                        break;
-                    case 4:
-                        System.out.println("Jeudi");
-                        break;
-                    case 5:
-                        System.out.println("Vendredi");
-                        break;
-                    case 6:
-                        System.out.println("Samedi");
-                        break;
-                    case 7:
-                        System.out.println("Dimanche");
-                        break;
-                    default:
-                        System.out.println(" ");
-                }
-            }
-
-        }while (day < 1 && day > 7);
 
     }
 }
