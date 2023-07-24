@@ -8,9 +8,11 @@ public class CentElements {
         int[] tab = new int[100];
 
         for (int i = 0; i < tab.length; i++) {
-            System.out.print(i +",");
-            if(i == 9 ||i == 19||i == 29||i == 39||i == 49||i == 59||i == 69||i == 79||i == 89||i == 99){
-               System.out.println("");
+            tab[i] = i;
+            if(i % 10 == 9){
+               System.out.print(tab[i] + "\n");
+            }else{
+                System.out.print(tab[i] + ",");
             }
         }
     }
