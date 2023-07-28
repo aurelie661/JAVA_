@@ -1,4 +1,4 @@
-package exercices;
+package exercices.Tableaux;
 
 public class TableauxEgaux {
     public static void main(String[] args) {

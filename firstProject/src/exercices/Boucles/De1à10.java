@@ -1,4 +1,4 @@
-package exercices;
+package exercices.Boucles;
 
 public class De1à10 {
     public static void main(String[] args) {

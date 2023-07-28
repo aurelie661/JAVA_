@@ -1,4 +1,4 @@
-package exercices;
+package exercices.Boucles;
 
 import java.util.Scanner;
 

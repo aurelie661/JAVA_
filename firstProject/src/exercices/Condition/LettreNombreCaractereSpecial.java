@@ -1,4 +1,4 @@
-package exercices;
+package exercices.Condition;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

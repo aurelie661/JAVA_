@@ -1,4 +1,4 @@
-package exercices;
+package exercices.Boucles;
 
 public class TableMultication {
     public static void main(String[] args) {

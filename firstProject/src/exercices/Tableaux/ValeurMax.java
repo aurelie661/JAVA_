@@ -1,4 +1,4 @@
-package exercices;
+package exercices.Tableaux;
 
 public class ValeurMax {
     public static void main(String[] args) {
